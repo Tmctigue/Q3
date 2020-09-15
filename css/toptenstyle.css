@@ -1,0 +1,13 @@
+p {
+	color:green;
+}
+h1 {
+	color:blue;
+}
+h2 {
+	color:red;
+}
+img {
+	width:20%;
+	border:3px blue solid;
+}
