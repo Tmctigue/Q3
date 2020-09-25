@@ -1,0 +1,26 @@
+#wrapper {
+	max-width:80%;
+	margin:0 auto;
+	background-color:black;
+
+}
+h1 {
+	color:red;
+}
+img {
+	width:30%;
+	border-style:solid;
+	border-color:blue;
+}
+h2 {
+	color:green;
+}
+body {
+	color:red;
+}
+.s1 {
+	background-color: grey;
+	padding: 20px;
+	border: 3px solid blue;
+	margin: 30px;
+}
