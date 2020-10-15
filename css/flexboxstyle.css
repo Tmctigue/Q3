@@ -1,0 +1,70 @@
+#wrapper {
+	max-height: 90%;
+	margin: 0 auto;
+}
+
+.flex-container1 {
+	display: flex;
+	background-color: purple;
+}
+
+h1 {
+	font-size: 36pt;
+}
+
+.box1 {
+	background-color: red;
+	padding: 20px;
+	width: 50px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+
+.box2 {
+	background-color: blue;
+	padding: 20px;
+	width: 50px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+
+.box3 {
+	background-color: green;
+	padding: 20px;
+	width: 50px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+
+#rowreverse {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+#column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+#columnreverse {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse;
+}
+
+#justify-contentflex-start {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start; 
+}
+
+#justify-contentflex-end {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
