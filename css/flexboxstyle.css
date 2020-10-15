@@ -14,7 +14,7 @@ h1 {
 
 .box1 {
 	background-color: red;
-	padding: 20px;
+	padding: 50px;
 	width: 50px;
 	text-align: center;
 	font-size: 24pt;
@@ -23,7 +23,7 @@ h1 {
 
 .box2 {
 	background-color: blue;
-	padding: 20px;
+	padding: 50px;
 	width: 50px;
 	text-align: center;
 	font-size: 24pt;
@@ -32,7 +32,7 @@ h1 {
 
 .box3 {
 	background-color: green;
-	padding: 20px;
+	padding: 50px;
 	width: 50px;
 	text-align: center;
 	font-size: 24pt;
@@ -67,4 +67,52 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+}
+
+#justify-contentcenter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#justify-contentspacearound {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#justify-contentspacebetween {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#justify-contentspaceevenly {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#alignitemsflex-start {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#alignitemsflex-end {
+	display-flex
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+#alignitemsstretch {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+#alignitemsbaseline {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
 }
