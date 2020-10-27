@@ -131,7 +131,7 @@
 }
 
 .box8 {
-	height: 50px;
+	height:40px;
 	width: 195px;
 }
 
@@ -148,6 +148,11 @@
 #divider10 {
 	height: 80px;
 	width: 10px;
+}
+
+.box10 {
+	height: 30px;
+	width: 195px;
 }
 
 #bottomleftcolumn {
